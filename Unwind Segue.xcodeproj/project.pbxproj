@@ -14,6 +14,7 @@
 		D2A02BD01A79D26A00C4D90C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A02BCF1A79D26A00C4D90C /* Images.xcassets */; };
 		D2A02BD31A79D26A00C4D90C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2A02BD11A79D26A00C4D90C /* LaunchScreen.xib */; };
 		D2A02BDF1A79D26A00C4D90C /* Unwind_SegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A02BDE1A79D26A00C4D90C /* Unwind_SegueTests.m */; };
+		D2A02BEA1A79D39B00C4D90C /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A02BE91A79D39B00C4D90C /* MessageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D2A02BD81A79D26A00C4D90C /* Unwind SegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unwind SegueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A02BDD1A79D26A00C4D90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2A02BDE1A79D26A00C4D90C /* Unwind_SegueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Unwind_SegueTests.m; sourceTree = "<group>"; };
+		D2A02BE81A79D39B00C4D90C /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		D2A02BE91A79D39B00C4D90C /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				D2A02BC91A79D26A00C4D90C /* ViewController.h */,
 				D2A02BCA1A79D26A00C4D90C /* ViewController.m */,
 				D2A02BCC1A79D26A00C4D90C /* Main.storyboard */,
+				D2A02BE81A79D39B00C4D90C /* MessageViewController.h */,
+				D2A02BE91A79D39B00C4D90C /* MessageViewController.m */,
 				D2A02BCF1A79D26A00C4D90C /* Images.xcassets */,
 				D2A02BD11A79D26A00C4D90C /* LaunchScreen.xib */,
 				D2A02BC21A79D26A00C4D90C /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				D2A02BCB1A79D26A00C4D90C /* ViewController.m in Sources */,
 				D2A02BC81A79D26A00C4D90C /* AppDelegate.m in Sources */,
+				D2A02BEA1A79D39B00C4D90C /* MessageViewController.m in Sources */,
 				D2A02BC51A79D26A00C4D90C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

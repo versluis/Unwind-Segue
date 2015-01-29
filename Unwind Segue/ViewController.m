@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MessageViewController.h"
 
 @interface ViewController ()
 
@@ -23,5 +24,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+- (IBAction)backToTheStart:(UIStoryboardSegue *)segue {
+    
+    MessageViewController *messageViewController = segue.sourceViewController;
+    
+    if (messageViewController.theMessage) {
+        NSLog(@"The Message was: %@", messageViewController.theMessage);
+    }
+}
+
 
 @end
