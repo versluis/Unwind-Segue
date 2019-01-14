@@ -6,5 +6,7 @@ For more information and a step-by-step screencast, see my companion article: ht
 
 # Swift Version
 
-A Swift Verison of this project is available here: https://github.com/onstwedder/Unwind-Segue-Swift
+A Swift Verison of this project is available here: 
+https://github.com/onstwedder/Unwind-Segue-Swift
+
 Many thanks to Martijn Onstwedder for this :-)
